@@ -24,10 +24,10 @@ Based on the core dichotomy of control in Stoicism—focusing only on what we ca
 
 ```bash
 # Clone the repository
-git clone [https://github.com/linshara-arch/stoic-anti-neihao.git](https://github.com/linshara-arch/stoic-anti-neihao.git)
+git clone https://github.com/linshara-arch/stoic-anti-neihao.git
 
 # Enter the directory
 cd stoic-anti-neihao
 
 # Start the service using Docker Compose
-docker-compose up -d
+docker compose up -d

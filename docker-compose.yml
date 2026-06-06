@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  stoic-board:
+    image: php:8.2-apache
+    container_name: stoic-anti-neihao-board
+    ports:
+      - "5230:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./data:/var/www/data
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
